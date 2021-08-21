@@ -1,0 +1,462 @@
+﻿<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>VolunTips</title>
+    <meta name="description" content="אתר למתנדבים עם אזרחים ותיקים" />
+    <meta name="keywords" content="programing3, התנדבות, אזרחים וותיקים, HIT" />
+    <meta name="author" content="Liri Shaltiel & Shachaf Nachum" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="bootstrap/css/bootstrap-reboot.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap-grid.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="jScripts/JavaScript.js"></script>
+    <script src="jScripts/jQuery.js"></script>
+
+</head>
+<body>
+
+    <nav class="navbar fixed-top " navbar navbar-light" style="background-color: white;">
+        <a class="nav-item nav-link" href="#" onclick="myFunction()">
+            <img id="menu" src="pictures/menu.svg" />
+        </a>
+
+        <div class="topnav">
+            <a class="amenue" id="active" href="index.html">עמוד הבית</a>
+            <a class="amenue" href="conversions.html">רעיונות לשיחות</a>
+            <a class="amenue" href="activities.html">רעיונות לפעילויות</a>
+            <a class="amenue" href="casses.html">טיפים</a>
+            <a class="amenue" href="#" onclick="showAbout()">אודות</a>
+        </div>
+
+        <a class="navbar-brand" href="index.html">
+            <img id="logo" src="pictures/logo.png" />
+        </a>
+
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <a class="amenue" href="index.html">עמוד הבית</a>
+            <div class="line"></div>
+            <a class="amenue" href="conversions.html">רעיונות לשיחות</a>
+            <div class="line"></div>
+            <a class="amenue" href="activities.html">רעיונות לפעילויות</a>
+            <div class="line"></div>
+            <a class="amenue" href="casses.html">טיפים</a>
+            <div class="line"></div>
+            <a class="amenue" href="#" onclick="showAbout()">אודות</a>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+
+
+    <div id="container" class="container-fluid">
+
+
+        <!--אודות-->
+        <div id="about">
+            <div id="xDiv">
+                <p class="aboutP" onclick="closeAbout()">X</p>
+            </div>
+            <div class="color">
+                <h2 id="abouth2">אודות</h2>
+            </div>
+            <div class='square-box-about'>
+
+                <div class='square-content-about'>
+                    <p>אתר מותאם למובייל לשיפור איכות ההתנדבות בקרב מתנדבים עם אזרחים וותיקים</p>
+                </div>
+            </div>
+
+            <p class="aboutP">
+                פרויקט גמר תשפ"א <br />
+                <a href="https://www.hit.ac.il/telem/overview" target="_blank">הפקולטה לטכנולוגיות למידה</a>
+            </p>
+
+            <div class="box">
+                <div class="box_column">
+                    <div>
+                        <h4>צוות הפרויקט:</h4>
+                        <p class="aboutP2">שחף נחום <br />לירי שאלתיאל</p>
+                    </div>
+                    <div>
+                        <h4>מנחים:</h4>
+                        <p class="aboutP2">ד"ר דורותי לנגלי <br />מר עמרי כהנא</p>
+                    </div>
+                    <div id="moatza_desktop">
+                        <h4>בשיתוף המועצה הישראלית להתנדבות</h4>
+                        <p class="aboutP2">
+                            נציגת הארגון: גב' תמר ברגר <br />
+                        </p>
+                        <h4>משרד העבודה והרווחה</h4>
+                        <p class="aboutP2">
+                            מינהל אזרחים ותיקים ותחום התנדבות <br />
+                        </p>
+                        <h4>המשרד לשיוויון חברתי</h4>
+                        <p class="aboutP2">
+                            אגף אזרחים ותיקים <br />
+                        </p>
+                        <br />
+                        <p class="aboutP2">
+                            ליצירת קשר:
+                            <a href="mailto:office@ivolunteer.org.il">office@ivolunteer.org.il</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="box_column">
+                    <a class="aboutA" href="https://www.hit.ac.il/telem/overview" target="_blank">
+                        <img class="pic" src="pictures/logoHIT.gif" />
+                    </a>
+
+                    <div>
+                        <a class="aboutA" href="http://www.ivolunteer.org.il/" target="_blank">
+                            <img class="pic2" src="pictures/logo_moatza.png" />
+                        </a>
+                        <a class="aboutA" href="http://www.ivolunteer.org.il/#" target="_blank">
+                            <img class="pic3" src="pictures/logo-reshet.png" />
+                        </a>
+                    </div>
+                    <div>
+                        <a class="aboutA" href="https://www.gov.il/he/departments/molsa" target="_blank">
+                            <img class="pic4" src="pictures/logo-misrad.png" />
+                        </a>
+                        <a class="aboutA" href="https://www.gov.il/he/departments/ministry_for_social_equality" target="_blank">
+                            <img class="pic5" src="pictures/logo-misrad1.jpg" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="moatza_mobile">
+                <h4>בשיתוף המועצה הישראלית להתנדבות</h4>
+                <p class="aboutP2">
+                    נציגת הארגון: תמר ברגר <br />
+                </p>
+                <h4>משרד העבודה והרווחה</h4>
+                <p class="aboutP2">
+                    מינהל אזרחים ותיקים ותחום התנדבות <br />
+                </p>
+                <h4>המשרד לשיוויון חברתי</h4>
+                <p class="aboutP2">
+                    אגף אזרחים ותיקים <br />
+                </p>
+                <p class="aboutP2">
+                    ליצירת קשר:
+                    <a href="mailto:office@ivolunteer.org.il">office@ivolunteer.org.il</a>
+                </p>
+            </div>
+
+            <h4 class="centerh4">כל הזכויות שמורות למכון הטכנולוגי חולון HIT</h4>
+
+        </div>
+        <div id="overlay"></div>
+        <!--אודות-->
+
+        <div class="header">
+            <div id="headerDiv">
+                <h1 id="h1header">
+                    <span class="spanHeaderH1">Volun<span id="spanT">T</span>ips</span> <br />
+                    למתנדבים עם אזרחים וותיקים
+                </h1>
+                <p id="pheader">מגוון כלים ורעיונות להעשרת ההתנדבות</p>
+            </div>
+        </div>
+
+        <div class="flex-container1">
+            <div class="item">
+                <h2>שיחות</h2>
+            </div>
+
+            <div class="item">
+                <h2>פעילויות</h2>
+            </div>
+
+            <div class="item">
+                <h2>טיפים</h2>
+            </div>
+        </div>
+
+        <div class="flex-container1" style="width: 97%;">
+            <div class="item">
+                <img src="pictures/Icons_conversions.svg" />
+                <p class="textbold">נגמרו הרעיונות?</p>
+                <p>מגוון נושאי שיחה שיעשירו את מפגש ההתנדבות</p>
+
+            </div>
+
+            <div class="pink-border"></div>
+
+            <div class="item">
+
+                <!--####################################################
+                C A R O U S E L
+                ####################################################-->
+
+                <div id="carousel" class="carousel slide" data-ride="carousel" data-touch="true">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel" data-slide-to="1"></li>
+                        <li data-target="#carousel" data-slide-to="2"></li>
+                        <li data-target="#carousel" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <a href="activities.html">
+
+                                <picture>
+
+                                    <img srcset="https://dummyimage.com/300x200/ffffff/ffffff" alt="responsive image" class="d-block img-fluid">
+                                </picture>
+
+                                <div class="carousel-caption">
+                                    <div>
+                                        <h3>מאכל סימבולי</h3>
+                                        <p>הכינו מאכל שהאזרח הוותיק גדל עליו, העלו על הכתב וצרו ספר מתכונים בצירוף תמונות</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- /.carousel-item -->
+                        <div class="carousel-item">
+                            <a href="activities.html">
+                                <picture>
+                                    <img srcset="https://dummyimage.com/300x200/ffffff/ffffff" alt="responsive image" class="d-block img-fluid">
+                                </picture>
+
+                                <div class="carousel-caption justify-content-center align-items-center">
+                                    <div>
+                                        <h3>שימוש במייל</h3>
+                                        <p>פתחו כתובת מייל חדשה ולמדו כיצד לשלוח מיילים ולהגיב להם</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- /.carousel-item -->
+                        <div class="carousel-item">
+                            <a href="activities.html">
+                                <picture>
+                                    <img srcset="https://dummyimage.com/300x200/ffffff/ffffff" alt="responsive image" class="d-block img-fluid">
+                                </picture>
+
+                                <div class="carousel-caption justify-content-center align-items-center">
+                                    <div>
+                                        <h3>עץ משפחתי</h3>
+                                        <p>הרכיבו עץ משפחתי שיכיל את כלל בני המשפחה</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- /.carousel-item -->
+                        <div class="carousel-item">
+                            <a href="activities.html">
+                                <picture>
+                                    <img srcset="https://dummyimage.com/300x200/ffffff/ffffff" alt="responsive image" class="d-block img-fluid">
+                                </picture>
+
+                                <div class="carousel-caption justify-content-center align-items-center">
+                                    <div>
+                                        <h3>משחקי קופסה</h3>
+                                        <p>ניתן ללמד אחד את השני משחק חדש או לשחק במשחק אהוב</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- /.carousel-item -->
+                    </div>
+                    <!-- /.carousel-inner -->
+                    <a class="carousel-control-prev" href="#carousel" role="button" data-touch="true" data-slide="prev">
+                        <span aria-hidden="true"> <img src="pictures/carousel-right.svg" /> </span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel" role="button" data-touch="true" data-slide="next">
+                        <span aria-hidden="true"> <img src="pictures/carousel-left.svg" /> </span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <!-- /.carousel -->
+
+            </div>
+
+            <div class="pink-border"></div>
+
+            <div class="item">
+                <img src="pictures/Icons_tips.svg" />
+                <p class="textbold">עצות לשלבי מפגש ההתנדבות</p>
+                <p>לפני המפגש, בתחילתו, במהלכו ובסיומו</p>
+            </div>
+
+        </div>
+
+        <div class="flex-container1">
+            <div class="item">
+                <button class="btn" style="background-color: #86B0A2;" onclick="pageRedirect()">לרעיונות נוספים</button>
+            </div>
+
+            <div class="item">
+                <button class="btn" style="background-color: #619DCB;" onclick="pageRedirect2()">לפעילויות נוספות</button>
+            </div>
+
+            <div class="item">
+                <button class="btn" style="background-color: #FCB7A7;" onclick="pageRedirect3()">למעבר לטיפים</button>
+            </div>
+        </div>
+
+        <div class="flex-container">
+            <div class="item">
+                <div class="flex-container3">
+                    <div class="green-border2"></div>
+                    <div> <h2>שיחות</h2> </div>
+
+                    <div class="green-border2"></div>
+                </div>
+                <img src="pictures/Icons_conversions.svg" />
+                <p class="textbold">נגמרו הרעיונות?</p>
+                <p>מגוון נושאי שיחה שיעשירו את מפגש ההתנדבות</p>
+                <button class="btn" style="background-color: #86B0A2;" onclick="pageRedirect()">לרעיונות נוספים</button>
+            </div>
+
+            <div class="pink-border"></div>
+
+
+
+
+            <div id="activities2" class="flex-container3">
+                <div class="green-border"></div>
+                <div> <h2>פעילויות</h2> </div>
+                <div class="green-border"></div>
+            </div>
+            <!-- Slider main container -->
+            <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <a href="activities.html">
+                            <div class="carousel-caption">
+                                <div>
+                                    <h3>מאכל סימבולי</h3>
+                                    <p>הכינו מאכל שהאזרח הוותיק גדל עליו, העלו על הכתב וצרו ספר מתכונים בצירוף תמונות</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="activities.html">
+                            <div class="carousel-caption justify-content-center align-items-center">
+                                <div>
+                                    <h3>שימוש במייל</h3>
+                                    <p>פתחו כתובת מייל חדשה ולמדו כיצד לשלוח מיילים ולהגיב להם</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="activities.html">
+                            <div class="carousel-caption justify-content-center align-items-center">
+                                <div>
+                                    <h3>עץ משפחתי</h3>
+                                    <p>הרכיבו עץ משפחתי שיכיל את כלל בני המשפחה</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="activities.html">
+                            <div class="carousel-caption justify-content-center align-items-center">
+                                <div>
+                                    <h3>משחקי קופסה</h3>
+                                    <p>ניתן ללמד אחד את השני משחק חדש או לשחק במשחק אהוב</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev">
+                    <img src="pictures/carousel-right.svg" />
+                </div>
+                <div class="swiper-button-next">
+                    <img src="pictures/carousel-left.svg" />
+                </div>
+            </div>
+
+            <div class="item1">
+                <button class="btn" style="background-color: #619DCB;" onclick="pageRedirect2()">לפעילויות נוספות</button>
+            </div>
+
+            <div class="pink-border"></div>
+
+            <div class="item">
+                <div class="flex-container3">
+                    <div class="green-border"></div>
+                    <div> <h2>טיפים</h2> </div>
+                    <div class="green-border"></div>
+                </div>
+                <img src="pictures/Icons_tips.svg" />
+                <p class="textbold">עצות לשלבי מפגש ההתנדבות</p>
+                <p>לפני המפגש, בתחילתו, במהלכו ובסיומו</p>
+                <button class="btn" style="background-color: #FCB7A7;" onclick="pageRedirect3()">למעבר לטיפים</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <hr />
+        <p>
+            תוצר זה פותח במסגרת פרויקט גמר לתואר ראשון
+            <a href="https://www.hit.ac.il/telem/overview" target="_blank">בפקולטה לטכנולוגיות למידה</a>
+            , HIT
+            |
+            <a href="#" onclick="showAbout()">אודות</a>
+        </p>
+    </footer>
+
+
+
+</body>
+</html>
+
+
+<script>
+    const swiper = new Swiper('.swiper-container', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+        autoplay: {
+            delay: 5000,
+        },
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
+    });
+
+</script>

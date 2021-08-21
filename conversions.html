@@ -1,0 +1,545 @@
+﻿<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>VolunTips- רעיונות לשיחות</title>
+    <meta name="description" content="רעיונות לשיחות" />
+    <meta name="keywords" content="programing3, התנדבות, אזרחים וותיקים, HIT" />
+    <meta name="author" content="Liri Shaltiel & Shachaf Nachum" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="bootstrap/css/bootstrap-reboot.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap-grid.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="styles/myStyle - conversions.css" rel="stylesheet" />
+
+    <link href="styles/myStyle-conversions.css" rel="stylesheet" />
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="jScripts/JavaScript.js"></script>
+    <script src="jScripts/jQuery.js"></script>
+
+</head>
+<body>
+
+    <nav class="navbar fixed-top " navbar navbar-light" style="background-color: white;">
+        <a class="nav-item nav-link" href="#" onclick="myFunction()">
+            <img id="menu" src="pictures/menu.svg" />
+        </a>
+
+        <div class="topnav">
+            <a class="amenue" href="index.html">עמוד הבית</a>
+            <a class="amenue" id="active" href="conversions.html">רעיונות לשיחות</a>
+            <a class="amenue" href="activities.html">רעיונות לפעילויות</a>
+            <a class="amenue" href="casses.html">טיפים</a>
+            <a class="amenue" href="#" onclick="showAbout()">אודות</a>
+        </div>
+
+        <a class="navbar-brand" href="index.html">
+            <img id="logo" src="pictures/logo.png" />
+        </a>
+
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <a class="amenue" href="index.html">עמוד הבית</a>
+            <div class="line3"></div>
+            <a class="amenue" href="conversions.html">רעיונות לשיחות</a>
+            <div class="line3"></div>
+            <a class="amenue" href="activities.html">רעיונות לפעילויות</a>
+            <div class="line3"></div>
+            <a class="amenue" href="casses.html">טיפים</a>
+            <div class="line3"></div>
+            <a class="amenue" href="#" onclick="showAbout()">אודות</a>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+
+    <div id="container" class="container">
+        <!--אודות-->
+        <div id="about">
+            <div id="xDiv">
+                <p class="aboutP" onclick="closeAbout()">X</p>
+            </div>
+            <div class="color">
+                <h2 id="abouth2">אודות</h2>
+            </div>
+            <div class='square-box-about'>
+
+                <div class='square-content-about'>
+                    <p>אתר מותאם למובייל לשיפור איכות ההתנדבות בקרב מתנדבים עם אזרחים וותיקים</p>
+                </div>
+            </div>
+
+            <p class="aboutP">
+                פרויקט גמר תשפ"א <br />
+                <a href="https://www.hit.ac.il/telem/overview target="_blank"">הפקולטה לטכנולוגיות למידה</a>
+            </p>
+
+            <div class="box">
+                <div class="box_column">
+                    <div>
+                        <h4>צוות הפרויקט:</h4>
+                        <p class="aboutP2">שחף נחום <br />לירי שאלתיאל</p>
+                    </div>
+                    <div>
+                        <h4>מנחים:</h4>
+                        <p class="aboutP2">ד"ר דורותי לנגלי <br />עמרי כהנא</p>
+                    </div>
+                    <div id="moatza_desktop">
+                        <h4>בשיתוף המועצה הישראלית להתנדבות</h4>
+                        <p class="aboutP2">
+                            נציגת הארגון: גב' תמר ברגר <br />
+                        </p>
+                        <h4>משרד העבודה והרווחה</h4>
+                        <p class="aboutP2">
+                            מינהל אזרחים ותיקים ותחום התנדבות <br />
+                        </p>
+                        <h4>המשרד לשיוויון חברתי</h4>
+                        <p class="aboutP2">
+                            אגף אזרחים ותיקים <br />
+                        </p>
+                        <br />
+                        <p class="aboutP2">
+                            ליצירת קשר:
+                            <a href="mailto:office@ivolunteer.org.il">office@ivolunteer.org.il</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="box_column">
+                    <a class="aboutA" href="https://www.hit.ac.il/telem/overview" target="_blank">
+                        <img class="pic" src="pictures/logoHIT.gif" />
+                    </a>
+
+                    <div>
+                        <a class="aboutA" href="http://www.ivolunteer.org.il/" target="_blank">
+                            <img class="pic2" src="pictures/logo_moatza.png" />
+                        </a>
+                        <a class="aboutA" href="http://www.ivolunteer.org.il/#" target="_blank">
+                            <img class="pic3" src="pictures/logo-reshet.png" />
+                        </a>
+                    </div>
+                    <div>
+                        <a class="aboutA" href="https://www.gov.il/he/departments/molsa" target="_blank">
+                            <img class="pic4" src="pictures/logo-misrad.png" />
+                        </a>
+                        <a class="aboutA" href="https://www.gov.il/he/departments/ministry_for_social_equality" target="_blank">
+                            <img class="pic5" src="pictures/logo-misrad1.jpg" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="moatza_mobile">
+                <h4>בשיתוף המועצה הישראלית להתנדבות</h4>
+                <p class="aboutP2">
+                    נציגת הארגון: תמר ברגר <br />
+                </p>
+                <h4>משרד העבודה והרווחה</h4>
+                <p class="aboutP2">
+                    מינהל אזרחים ותיקים ותחום התנדבות <br />
+                </p>
+                <h4>המשרד לשיוויון חברתי</h4>
+                <p class="aboutP2">
+                    אגף אזרחים ותיקים <br />
+                </p>
+                <p class="aboutP2">
+                    ליצירת קשר:
+                    <a href="mailto:office@ivolunteer.org.il">office@ivolunteer.org.il</a>
+                </p>
+            </div>
+
+            <h4 class="centerh4">כל הזכויות שמורות למכון הטכנולוגי חולון HIT</h4>
+
+        </div>
+        <div id="overlay"></div>
+        <!--אודות-->
+
+        <div id="headline">
+            <div class="header">
+                <h1>רעיונות לשיחות</h1>
+            </div>
+            <div class='square-box'>
+
+                <div class='square-content'>
+                    <p>
+                        מגוון רעיונות להעשרת השיחה כחלק מהמפגש! <br />
+                        תוכלו לקבל השראה לנושאי שיחה חדשים ומעניינים
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <p id="todo">בחרו בנושא להרחבה</p>
+
+        <div class="line"></div>
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <div class="flex-container">
+                                <div class="flex-item-right">
+                                    <span class="textblack">משפחה</span>
+                                </div>
+                                <!-- תמונה -->
+                                <div class="flex-item-left">
+                                    <img src="pictures/talks/family.jpg" class="image_activity" width="60" height="60" />
+                                </div>
+                            </div>
+
+
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne">
+                    <div class="card-body">
+                        <ul class="bullet">
+                            <li>גיל חתונה</li>
+                            <li>זמן ומקום ההיכרות של הבן/בת זוג</li>
+                            <li>שמות הוריו</li>
+                            <li>סיפורים על  הוריו</li>
+                            <li>מקצועות של הילדים</li>
+                            <li>גיל הילד הבכור</li>
+                            <li>כמות נכדים ושמותיהם</li>
+                            <li>כמות נינים ושמותיהם</li>
+                            <li>בילויים משפחתיים</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <div class="flex-container">
+
+                                <div class="flex-item-right">
+                                    <span class="textblack">תעסוקה ולימודים</span>
+                                </div>
+                                <!-- תמונה -->
+                                <div class="flex-item-left">
+                                    <img src="pictures/talks/thasokavelimodim.jpg" class="image_activity" width="60" height="60" />
+                                </div>
+                            </div>
+                        </button>
+
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo">
+                    <div class="card-body">
+
+                        <ul class="bullet">
+                            <li>מקצוע בו האזרח הוותיק עסק בעבר</li>
+                            <li>מקצוע שרצה ללמוד</li>
+                            <li>לימודים בעבר ובהווה </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseTwo">
+                            <div class="flex-container">
+
+                                <div class="flex-item-right">
+                                    <span class="textblack">עלייה וקליטה בארץ</span>
+                                </div>
+                                <!-- תמונה -->
+                                <div class="flex-item-left">
+                                    <img src="pictures/talks/aliya.jpg" class="image_activity" width="60" height="60" />
+                                </div>
+                            </div>
+                        </button>
+
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingTwo">
+                    <div class="card-body">
+
+                        <ul class="bullet">
+                            <li>מדינת מוצא</li>
+                            <li>סיפורי עלייה וקליטה</li>
+                            <li>תחושות לגבי עלייה ארצה</li>
+                            <li>גיל בעת העלייה ארצה</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
+                            <div class="flex-container">
+
+                                <div class="flex-item-right">
+                                    <span class="textblack">תחביבים</span>
+                                </div>
+                                <!-- תמונה -->
+                                <div class="flex-item-left">
+                                    <img src="pictures/talks/thahvivim.jpg" class="image_activity" width="60" height="60" />
+                                </div>
+                            </div>
+                        </button>
+
+                    </h5>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingTwo">
+                    <div class="card-body">
+
+                        <ul class="bullet">
+                            <li>דברים שעושים בזמן הפנוי</li>
+                            <li>תכניות או סדרות שאוהבים</li>
+                            <li>תחומי עניין ותחביבים</li>
+                            <li>דברים שאוהבים בעיר</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapseTwo">
+                            <div class="flex-container">
+
+                                <div class="flex-item-right">
+                                    <span class="textblack">על האזרח הוותיק </span>
+                                </div>
+                                <!-- תמונה -->
+                                <div class="flex-item-left">
+                                    <img src="pictures/talks/alhezrah.jpg" class="image_activity" width="60" height="60" />
+                                </div>
+                            </div>
+                        </button>
+
+                    </h5>
+                </div>
+                <div id="collapse5" class="collapse" aria-labelledby="headingTwo">
+                    <div class="card-body">
+
+                        <ul class="bullet">
+                            <li>תחושות לגבי התקופה הנוכחית</li>
+                            <li>ילדות</li>
+                            <li>חוויות וזיכרונות מהעבר</li>
+                            <li>מאכלים שאוהב</li>
+                            <li>מוזיקה בשפת אם</li>
+                            <li>אהבה ראשונה</li>
+                            <li>צבא</li>
+                            <li>טיולים בארץ</li>
+                            <li>טיולים בחו"ל</li>
+                            <li>צורך בסיוע או עזרה</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapseTwo">
+                            <div class="flex-container">
+
+                                <div class="flex-item-right">
+                                    <span class="textblack">על המתנדב</span>
+                                </div>
+                                <!-- תמונה -->
+                                <div class="flex-item-left">
+                                    <img src="pictures/talks/alhamitnadev.jpg" class="image_activity" width="60" height="60" />
+                                </div>
+                            </div>
+                        </button>
+
+                    </h5>
+                </div>
+                <div id="collapse6" class="collapse" aria-labelledby="headingTwo">
+                    <div class="card-body">
+
+                        <ul class="bullet">
+                            <li>עבודה ומקצוע</li>
+                            <li>תחביבים</li>
+                            <li>לימודים</li>
+                            <li>משפחה</li>
+                            <li>חברים</li>
+                            <li>צבא</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapseTwo">
+                            <div class="flex-container">
+
+                                <div class="flex-item-right">
+                                    <span class="textblack">כללי</span>
+                                </div>
+                                <!-- תמונה -->
+                                <div class="flex-item-left">
+                                    <img src="pictures/talks/genral.jpg" class="image_activity" width="60" height="60" />
+                                </div>
+                            </div>
+                        </button>
+
+                    </h5>
+                </div>
+                <div id="collapse7" class="collapse" aria-labelledby="headingTwo">
+                    <div class="card-body">
+
+                        <ul class="bullet">
+                            <li>דעות פוליטיות</li>
+                            <li>מתכונים</li>
+                            <li>אפייה</li>
+                            <li>בריאות</li>
+                            <li>שירים של פעם והיום</li>
+                            <li>היסטוריה</li>
+                            <li>קום המדינה</li>
+                            <li>חברות</li>
+                            <li>ספר אהוב שקרא לאחרונה</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapseTwo">
+                            <div class="flex-container">
+
+                                <div class="flex-item-right">
+                                    <span class="textblack">זיכרונות וחווית</span>
+                                </div>
+                                <!-- תמונה -->
+                                <div class="flex-item-left">
+                                    <img src="pictures/talks/zichronot.jpg" class="image_activity" width="60" height="60" />
+                                </div>
+                            </div>
+                        </button>
+
+                    </h5>
+                </div>
+                <div id="collapse8" class="collapse" aria-labelledby="headingTwo">
+                    <div class="card-body">
+
+                        <ul class="bullet">
+                            <li>סיפורי גבורה מזיכרון או מחוויה</li>
+                            <li>הישגים בחיים</li>
+                            <li>חלומות מפעם ומהיום</li>
+                            <li>שיתוף במשהו שטרם נחשף/ דובר</li>
+                            <li>זיכרון טוב מבית הספר</li>
+                            <li>הרפתקאות ממהלך החיים</li>
+                            <li>מעשי קונדס מתקופת ילדות</li>
+                            <li>מאורעות שחישלו</li>
+                            <li>שיתוף בחדשות טובות</li>
+                            <li>שיתוף ידע בנושא קרוב ללב</li>
+                            <li>החיים לפני מלחמת העולם השנייה</li>
+                            <li>הצגות והופעות</li>
+                            <li>הרצאות מעניינות</li>
+                            <li>אקטואליה </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse9" aria-expanded="false" aria-controls="collapseTwo">
+                            <div class="flex-container">
+
+                                <div class="flex-item-right">
+                                    <span class="textblack">קורונה</span>
+                                </div>
+                                <!-- תמונה -->
+                                <div class="flex-item-left">
+                                    <img src="pictures/talks/corona.jpg" class="image_activity" width="60" height="60" />
+                                </div>
+                            </div>
+                        </button>
+
+                    </h5>
+                </div>
+                <div id="collapse9" class="collapse" aria-labelledby="headingTwo">
+                    <div class="card-body">
+
+                        <ul class="bullet">
+                            <li>השפעות כיום</li>
+                            <li>השפעות בתקופת הקורונה</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse10" aria-expanded="false" aria-controls="collapseTwo">
+                            <div class="flex-container">
+
+                                <div class="flex-item-right">
+                                    <span class="textblack">בשיחת וידאו/ טלפון</span>
+                                </div>
+                                <!-- תמונה -->
+                                <div class="flex-item-left">
+                                    <img src="pictures/talks/vidoorphone.jpg" class="image_activity" width="60" height="60" />
+                                </div>
+                            </div>
+                        </button>
+
+                    </h5>
+                </div>
+                <div id="collapse10" class="collapse" aria-labelledby="headingTwo">
+                    <div class="card-body">
+
+                        <ul class="bullet">
+                            <li>שיתוף בוידאו של הבית אחד של השני</li>
+                            <li>תצוגת חפצים יקרי ערך</li>
+                            <li>שיתוף בכתבה מסוימת</li>
+                            <li>שיתוף בשירה/ מנגינה</li>
+                            <li>שיחות על היום יום והחיים</li>
+                            <li>למידה של משהו חדש</li>
+                            <li>חוויות מסוף השבוע</li>
+                            <li>תכניות לשבת הקרובה</li>
+                            <li>ארץ עיר</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <footer>
+        <hr />
+        <p id="aboutP">
+            תוצר זה פותח במסגרת פרויקט גמר לתואר ראשון
+            <a href="https://www.hit.ac.il/telem/overview" target="_blank">בפקולטה לטכנולוגיות למידה</a>
+            , HIT
+            |
+            <a href="#" onclick="showAbout()">אודות</a>
+        </p>
+    </footer>
+</body>
+</html>

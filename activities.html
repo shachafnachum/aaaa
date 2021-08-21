@@ -1,0 +1,1411 @@
+﻿<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>VolunTips- רעיונות לפעילויות</title>
+    <meta name="description" content="רעיונות לפעילויות" />
+    <meta name="keywords" content="programing3, התנדבות, אזרחים וותיקים, HIT" />
+    <meta name="author" content="Liri Shaltiel & Shachaf Nachum" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="bootstrap/css/bootstrap-reboot.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap-grid.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="styles/myStyle-activities.css" rel="stylesheet" />
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="jScripts/JavaScript.js"></script>
+    <script src="jScripts/jQuery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+
+
+</head>
+<body>
+
+    <nav class="navbar fixed-top " navbar navbar-light" style="background-color: white;">
+        <a class="nav-item nav-link" href="#" onclick="myFunction()">
+            <img id="menu" src="pictures/menu.svg" />
+        </a>
+
+        <div class="topnav">
+            <a class="amenue" href="index.html">עמוד הבית</a>
+            <a class="amenue" href="conversions.html">רעיונות לשיחות</a>
+            <a class="amenue" id="active" href="activities.html">רעיונות לפעילויות</a>
+            <a class="amenue" href="casses.html">טיפים</a>
+            <a class="amenue" href="#" onclick="showAbout()">אודות</a>
+        </div>
+
+        <a class="navbar-brand" href="index.html">
+            <img id="logo" src="pictures/logo.png" />
+        </a>
+
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <a class="amenue" href="index.html">עמוד הבית</a>
+            <div class="line"></div>
+            <a class="amenue" href="conversions.html">רעיונות לשיחות</a>
+            <div class="line"></div>
+            <a class="amenue" href="activities.html">רעיונות לפעילויות</a>
+            <div class="line"></div>
+            <a class="amenue" href="casses.html">טיפים</a>
+            <div class="line"></div>
+            <a class="amenue" href="#" onclick="showAbout()">אודות</a>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+
+    <div id="container" class="container">
+        <!--אודות-->
+        <div id="about">
+            <div id="xDiv">
+                <p class="aboutP" onclick="closeAbout()">X</p>
+            </div>
+            <div class="color">
+                <h2>אודות</h2>
+            </div>
+            <div class='square-box-about'>
+
+                <div class='square-content-about'>
+                    <p>אתר מותאם למובייל לשיפור איכות ההתנדבות בקרב מתנדבים עם אזרחים וותיקים</p>
+                </div>
+            </div>
+
+            <p class="aboutP">
+                פרויקט גמר תשפ"א <br />
+                <a href="https://www.hit.ac.il/telem/overview" target="_blank">הפקולטה לטכנולוגיות למידה</a>
+            </p>
+
+            <div class="box">
+                <div class="box_column">
+                    <div>
+                        <h3>צוות הפרויקט:</h3>
+                        <p class="aboutP2">שחף נחום <br />לירי שאלתיאל</p>
+                    </div>
+                    <div>
+                        <h3>מנחים:</h3>
+                        <p class="aboutP2">ד"ר דורותי לנגלי <br />עמרי כהנא</p>
+                    </div>
+                    <div id="moatza_desktop">
+                        <h3>בשיתוף המועצה הישראלית להתנדבות</h3>
+                        <p class="aboutP2">
+                            נציגת הארגון: גב' תמר ברגר <br />
+                        </p>
+                        <h3>משרד העבודה והרווחה</h3>
+                        <p class="aboutP2">
+                            מינהל אזרחים ותיקים ותחום התנדבות <br />
+                        </p>
+                        <h3>המשרד לשיוויון חברתי</h3>
+                        <p class="aboutP2">
+                            אגף אזרחים ותיקים <br />
+                        </p>
+                        <br />
+                        <p class="aboutP2">
+                            ליצירת קשר:
+                            <a href="mailto:office@ivolunteer.org.il">office@ivolunteer.org.il</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="box_column">
+                    <a class="aboutA" href="https://www.hit.ac.il/telem/overview" target="_blank">
+                        <img class="pic" src="pictures/logoHIT.gif" />
+                    </a>
+
+                    <div>
+                        <a class="aboutA" href="http://www.ivolunteer.org.il/" target="_blank">
+                            <img class="pic2" src="pictures/logo_moatza.png" />
+                        </a>
+                        <a class="aboutA" href="http://www.ivolunteer.org.il/#" target="_blank">
+                            <img class="pic3" src="pictures/logo-reshet.png" />
+                        </a>
+                    </div>
+                    <div>
+                        <a class="aboutA" href="https://www.gov.il/he/departments/molsa" target="_blank">
+                            <img class="pic4" src="pictures/logo-misrad.png" />
+                        </a>
+                        <a class="aboutA" href="https://www.gov.il/he/departments/ministry_for_social_equality" target="_blank">
+                            <img class="pic5" src="pictures/logo-misrad1.jpg" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="moatza_mobile">
+                <h3>בשיתוף המועצה הישראלית להתנדבות</h3>
+                <p class="aboutP2">
+                    נציגת הארגון: תמר ברגר <br />
+                </p>
+                <h3>משרד העבודה והרווחה</h3>
+                <p class="aboutP2">
+                    מינהל אזרחים ותיקים ותחום התנדבות <br />
+                </p>
+                <h3>המשרד לשיוויון חברתי</h3>
+                <p class="aboutP2">
+                    אגף אזרחים ותיקים <br />
+                </p>
+                <p class="aboutP2">
+                    ליצירת קשר:
+                    <a href="mailto:office@ivolunteer.org.il">office@ivolunteer.org.il</a>
+                </p>
+            </div>
+
+            <h3 class="centerh4">כל הזכויות שמורות למכון הטכנולוגי חולון HIT</h3>
+
+        </div>
+        <div id="overlay"></div>
+        <!--אודות-->
+
+        <div id="headline">
+            <div class="header">
+                <h1>פעילויות</h1>
+            </div>
+            <div class='square-box'>
+
+                <div class='square-content'>
+                    <p>
+                        מגוון רעיונות להפיכת המפגש המשותף לחוויתי! <br />  
+                        תוכלו לבחור יחד פעילות מתאימה ומעשירה 
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="activitiesDiv">
+            <h2>סוג הפעילות</h2>
+            <p>לחצו לבחירת קטגוריה</p>
+
+
+            <div id="subjects" class="row">
+
+                <div class="col-xs-4">
+                    <label class="checkbox-styled">
+                        <input type="checkbox" onclick="activitiesCreation()" name="chk2" id="item4" value="val2" class="hidden" autocomplete="off" d />
+                        <span>יצירה</span>
+                    </label>
+                </div>
+
+
+                <div class="col-xs-4">
+                    <label class="checkbox-styled">
+                        <input type="checkbox" onclick="activitiesCook()" name="chk2" id="item5" value="val2" class="hidden" autocomplete="off" />
+                        <span>אוכל</span>
+                    </label>
+                </div>
+
+                <div class="col-xs-4">
+                    <label class="checkbox-styled">
+                        <input type="checkbox" onclick="activitiesGame()" name="chk2" id="item6" value="val2" class="hidden" autocomplete="off" />
+                        <span>משחקים</span>
+                    </label>
+                </div>
+
+                <div class="col-xs-4">
+                    <label class="checkbox-styled">
+                        <input type="checkbox" onclick="activitiesTech()" name="chk2" id="item7" value="val2" class="hidden" autocomplete="off" />
+                        <span>טכנולוגיה</span>
+                    </label>
+                </div>
+
+                <div class="col-xs-4">
+                    <label class="checkbox-styled">
+                        <input type="checkbox" onclick="activitiesCulture()" name="chk2" id="item8" value="val2" class="hidden" autocomplete="off" />
+                        <span>תרבות</span>
+                    </label>
+                </div>
+
+                <div class="col-xs-4">
+                    <label class="checkbox-styled">
+                        <input type="checkbox" onclick="activitiesWriting()" name="chk2" id="item9" value="val2" class="hidden" autocomplete="off" />
+                        <span>כתיבה</span>
+                    </label>
+                </div>
+
+                <div class="col-xs-4">
+                    <label class="checkbox-styled">
+                        <input type="checkbox" onclick="activitiesSport()" name="chk2" id="item10" value="val2" class="hidden" autocomplete="off" />
+                        <span>ספורט</span>
+                    </label>
+                </div>
+
+                <div class="col-xs-4">
+                    <label class="checkbox-styled">
+                        <input type="checkbox" onclick="activitiesVolunteering()" name="chk2" id="item11" value="val2" class="hidden" autocomplete="off" />
+                        <span>העשרה</span>
+                    </label>
+                </div>
+
+                <div class="col-xs-4">
+                    <label class="checkbox-styled">
+                        <input type="checkbox" onclick="activitiesOther()" name="chk2" id="item12" value="val2" class="hidden" autocomplete="off" />
+                        <span>אחר</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <br />
+
+
+        <!-- פעילויות יצירה -->
+        <div id="div1" style="display:none">
+
+            <!--פעילות 1-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>סריגה</h4>
+                    <span>צרו בובה, צעיף, שמיכה מפנקת או כל רעיון יצירתי אחר. </span> <br />
+                    <a href="https://osaeinaim.com/%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA-%D7%A1%D7%A8%D7%99%D7%92%D7%94/" target="_blank">(עושה עיניים,</a>
+                    <a href="https://www.mako.co.il/women-fashion/style-sokanit/Article-bff064ec436e811004.htm" target="_blank">עושה שורות)</a>
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/creativity/seriga.jpg" class="image_activity" width="60" height="60" />
+                </div>
+                <span class="mutual">
+                    <img src="pictures/icon_heart.svg" width="30" />
+                    <span class="mutualP">ניתן ליצור יחד ולתרום למקום לפי בחירתכם</span>
+                </span>
+            </div>
+
+            <!-- סוף פעילות -->
+            <!--פעילות 2-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>רקמה</h4>
+                    <span>לרקום ולקשט מוצרי בד. <br /></span>
+                    <a href="https://www.youtube.com/watch?v=l-Npr1jWUYI" target="_blank">(יצירתילי)</a>
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/creativity/rikma.jpg" class="image_activity" width="60" height="60" />
+                </div>
+                <span class="mutual">
+                    <img src="pictures/icon_heart.svg" width="30" />
+                    <span class="mutualP">ניתן ליצור יחד ולתרום למקום לפי בחירתכם</span>
+                </span>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 3-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>תפירה</h4>
+                    <span>לתפור בובות, בגדים, מפות או לתקן בגדים.</span> <br />
+                    <a href="http://www.baba-mail.co.il/content.aspx?emailid=37727" target="_blank">(בא-במייל)</a>
+
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/creativity/thfira.jpg" class="image_activity" width="60" height="60" />
+                </div>
+                <span class="mutual">
+                    <img src="pictures/icon_heart.svg" width="30" />
+                    <span class="mutualP">ניתן ליצור יחד ולתרום למקום לפי בחירתכם</span>
+                </span>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 4-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>ציור</h4>
+                    <span>ציירו על קנבס או דף גדול, התפרעו עם הדמיון וצרו יחד ציורים.</span> <br />
+
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/creativity/zuior.jpg" class="image_activity" width="60" height="60" />
+                </div>
+                <span class="mutual">
+                    <img src="pictures/icon_heart.svg" width="30" />
+                    <span class="mutualP">ניתן ליצור יחד ולתרום למקום לפי בחירתכם</span>
+                </span>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 5-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>צביעת מנדלות</h4>
+                    <span>הדפיסו מאתרי אינטרנט שונים ותלו ברחבי הבית כתמונות.</span> <br />
+                    <a href="https://paintpages.co.il/%D7%93%D7%A4%D7%99-%D7%A6%D7%91%D7%99%D7%A2%D7%94-%D7%9E%D7%A0%D7%93%D7%9C%D7%95%D7%AA/" target="_blank">(דפי צביעה להדפסה,</a>
+                    <a href="https://www.yo-yoo.co.il/coloring/index.php?cat=18" target="_blank">יויו)</a>
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/creativity/tzviahtMandala.jpg" class="image_activity" width="60" height="60" />
+                </div>
+                <span class="mutual">
+                    <img src="pictures/icon_heart.svg" width="30" />
+                    <span class="mutualP">ניתן ליצור יחד ולתרום למקום לפי בחירתכם</span>
+                </span>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 6-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>אוריגמי</h4>
+                    <!--/<h5>אני כותרת משנה</h5>-->
+                    <span>צפו במדריכים באינטרנט והרכיבו ביחד קיפולים חדשים.</span> <br />
+                    <!-- קישור -->
+                    <a href="http://tnbmagazine.com/%D7%90%D7%95%D7%A8%D7%99%D7%92%D7%9E%D7%99-%D7%9E%D7%93%D7%A8%D7%99%D7%9A-%D7%A7%D7%99%D7%A4%D7%95%D7%9C%D7%99-%D7%A0%D7%99%D7%99%D7%A8/" target="_blank">(The New Black)</a>
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/creativity/origami.jpg" class="image_activity" width="60" height="60" />
+                </div>
+                <span class="mutual">
+                    <img src="pictures/icon_heart.svg" width="30" />
+                    <span class="mutualP">ניתן ליצור יחד ולתרום למקום לפי בחירתכם</span>
+                </span>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 7-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>יצירת מוביילים</h4>
+                    <span>הרכיבו מחוטים, מחרוזים, מתמונות משפחתיות או שלל אמצעי יצירה אחרים.</span> <br />
+                    <a href="https://www.youtube.com/watch?v=rQvgCfR0TU8" target="_blank">(YouTube)</a>
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/creativity/mobiile.jpg" class="image_activity" width="60" height="60" />
+                </div>
+                <span class="mutual">
+                    <img src="pictures/icon_heart.svg" width="30" />
+                    <span class="mutualP">ניתן ליצור יחד ולתרום למקום לפי בחירתכם</span>
+                </span>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 8-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>צביעת אצטרובלים</h4>
+                    <span>אספו מחורשה סמוכה אצטרובלים וצבעו עם צבעי גואש.</span> <br />
+
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/creativity/tzviahEtzrobal.jpg" class="image_activity" width="60" height="60" />
+                </div>
+                <span class="mutual">
+                    <img src="pictures/icon_heart.svg" width="30" />
+                    <span class="mutualP">ניתן ליצור יחד ולתרום למקום לפי בחירתכם</span>
+                </span>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 9-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>חומרים ממוחזרים</h4>
+                    <span>צרו מגלילי נייר טואלט או בקבוקי פלסטיק מגוון יצירות.</span> <br />
+                    <a href="https://giftt.net/he/%D7%99%D7%9C%D7%93%D7%99%D7%9D/%D7%A8%D7%A2%D7%99%D7%95%D7%A0%D7%95%D7%AA-%D7%9C%D7%99%D7%A6%D7%99%D7%A8%D7%94-%D7%9E%D7%97%D7%95%D7%9E%D7%A8%D7%99%D7%9D-%D7%9E%D7%9E%D7%95%D7%97%D7%96%D7%A8%D7%99%D7%9D/" target="_blank">(giftt.net)</a>
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/creativity/memuhzar.jpg" class="image_activity" width="60" height="60" />
+                </div>
+                <span class="mutual">
+                    <img src="pictures/icon_heart.svg" width="30" />
+                    <span class="mutualP">ניתן ליצור יחד ולתרום למקום לפי בחירתכם</span>
+                </span>
+            </div>
+            <!-- סוף פעילות -->
+
+
+        </div> <!--דיב סוגר פעילויות יצירה-->
+        <!-- פעילויות יצירה -->
+        <!-- פעילויות בישול -->
+        <div id="div2" style="display:none">
+
+            <!--פעילות 1-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>מאכל סימבולי</h4>
+                    <span>הכינו מאכל שהאזרח הוותיק גדל עליו, העלו על הכתב וצרו ספר מתכונים בצירוף תמונות.</span> <br />
+
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/food/machalSimboly.jpg" class="image_activity" width="60" height="60" />
+                </div>
+                <span class="mutual">
+                    <img src="pictures/icon_heart.svg" width="30" />
+                    <span class="mutualP">ניתן ליצור יחד ולתרום למקום לפי בחירתכם</span>
+                </span>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 2-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>מאכלי עדות</h4>
+                    <span>הכינו מאכל מעדתו של המתנדב או האזרח הוותיק.</span> <br />
+                    <a href="https://www.foodik.co.il/recipe-tag/%D7%9E%D7%90%D7%9B%D7%9C%D7%99-%D7%A2%D7%93%D7%95%D7%AA/" target="_blank">(foodik,</a>
+                    <a href="https://www.foodsdictionary.co.il/Recipes/Kitchen/" target="_blank">foods dictionary)</a>
+
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/food/machalEdot.jpg" class="image_activity" width="60" height="60" />
+                </div>
+                <span class="mutual">
+                    <img src="pictures/icon_heart.svg" width="30" />
+                    <span class="mutualP">ניתן ליצור יחד ולתרום למקום לפי בחירתכם</span>
+                </span>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 3-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>מאכל חדש</h4>
+                    <span>בחרו מתכון חדש והכינו יחד.</span> <br />
+                    <a href="https://foody.co.il/" target="_blank">(foody,</a>
+                    <a href="https://www.10dakot.co.il/" target="_blank">מתכונים ב10 דקות)</a>
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/food/machalHadah.jpg" class="image_activity" width="60" height="60" />
+                </div>
+                <span class="mutual">
+                    <img src="pictures/icon_heart.svg" width="30" />
+                    <span class="mutualP">ניתן ליצור יחד ולתרום למקום לפי בחירתכם</span>
+                </span>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 4-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>קינוח</h4>
+                    <span>הכינו עוגיות או עוגה שכיף להכין וגם כיף לאכול. במידה והאזרח הוותיק או המתנדב לא אוכלים מתוק, תמיד אפשר להשאיר הפתעה לשכנים.</span> <br />
+                    <a href="https://www.carine.co.il/category/%D7%A7%D7%99%D7%A0%D7%95%D7%97%D7%99%D7%9D/" target="_blank">(קרין גורן,</a>
+                    <a href="https://food.walla.co.il/recipes?category=1941" target="_blank">וואלה אוכל)</a>
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/food/kinuah.jpg" class="image_activity" width="60" height="60" />
+                </div>
+                <span class="mutual">
+                    <img src="pictures/icon_heart.svg" width="30" />
+                    <span class="mutualP">ניתן ליצור יחד ולתרום למקום לפי בחירתכם</span>
+                </span>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 5-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>ארוחת ערב משותפת</h4>
+                    <span>תכננו והכינו ארוחה נבחרת מהיום והפכו פעולה יום יומית לחוויתית.</span> <br />
+
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/food/mesutheftDinner.jpg" class="image_activity" width="60" height="60" />
+                </div>
+                <span class="mutual">
+                    <img src="pictures/icon_heart.svg" width="30" />
+                    <span class="mutualP">ניתן ליצור יחד ולתרום למקום לפי בחירתכם</span>
+                </span>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 6-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>ספר מתכונים</h4>
+                    <span>העלאת מתכונים מחייו של האזרח הוותיק ומניסיון חייו הקולינריים על הכתב.</span> <br />
+
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/food/matconimSefer.jpg" class="image_activity" width="60" height="60" />
+                </div>
+                <span class="mutual">
+                    <img src="pictures/icon_heart.svg" width="30" />
+                    <span class="mutualP">ניתן ליצור יחד ולתרום למקום לפי בחירתכם</span>
+                </span>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 7-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>תפריט שבועי</h4>
+                    <span>תכננו תפריט שבועי של מאכלים, ארוחה לכל בוקר/צהריים/ערב.</span> <br />
+
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/food/tafritSvuei.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+
+        </div> <!--דיב סוגר פעילויות בישול-->
+        <!-- פעילויות משחק -->
+        <div id="div3" style="display:none">
+
+            <!--פעילות 1-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>משחקי דף ונייר</h4>
+                    <h5>הכי פשוט והכי זמין</h5>
+                    <div>
+                        <ul class="bullet">
+                            <li>
+                                איקס עיגול
+                            </li>
+                            <li>
+                                משחקי מילים
+                                <a href="https://milimbo.co.il/" target="_blank">(מילים בו,</a>
+                                <a href="https://maamul.sapir.ac.il/?p=33604" target="_blank">מעמול,</a>
+                                <a href="https://hebrew-academy.org.il/topic/%D7%A2%D7%91%D7%A8%D7%99%D7%AA-%D7%91%D7%91%D7%99%D7%AA-%D7%95%D7%91%D7%9B%D7%99%D7%AA%D7%94/%D7%9C%D7%A9%D7%97%D7%A7-%D7%91%D7%A2%D7%91%D7%A8%D7%99%D7%AA/" target="_blank">האקדמיה ללשון העברית)</a>
+                            </li>
+                            <li>
+                                בינגו
+                            </li>
+                            <li>
+                                איש תלוי
+                            </li>
+                            <li>תן קו</li>
+                        </ul>
+                    </div> <br />
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/games/paperAndPan.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 2-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>משחקי חשיבה</h4>
+                    <h5>הפעילו את הראש וחדדו את הזיכרון</h5>
+                    <div>
+                        <ul class="bullet">
+                            <li>
+                                משחקי התאמה (זוגות מפורסמים, מדינות וערי בירה, מאכלי עמים)
+                                <a href="https://funlearning.co.il/2016/09/matching-games/" target="_blank">(מור קנדי)</a>
+                            </li>
+                            <li>
+                                משחקי השלמה (שמות, מקומות, שירים)
+                                <a href="https://wordwall.net/he-il/community/%D7%9E%D7%A9%D7%97%D7%A7%D7%99-%D7%A9%D7%99%D7%A8%D7%99%D7%9D" target="_blank">(wordwall)</a>
+                            </li>
+                            <li>
+                                משחקי זיכרון
+                                <a href="https://www.gamesforthebrain.com/hebrew/mastercards/" target="_blank">(games for the brain)</a>
+                            </li>
+                            <li>טריוויה
+                                <a href="https://www.mako.co.il/culture-weekend/Article-bc542691b747171027.htm" target="_blank">(מאקו,</a>
+                                <a href="https://site.yediot.co.il/web/2018/genius/" target="_blank">ידיעות אחרונות,</a>
+                                <a href="https://www.pitria.com/trivia-questions" target="_blank">פטרייה)</a>
+                            </li>
+                            <li>משחק אסוציאציות</li>
+                            <li>
+                                תשבצים
+                                <a href="https://www.14across.co.il/" target="_blank">(14Across)</a>
+                            </li>
+                            <li>
+                                תשחצים
+                                <a href="https://www.mor-hbr.com/" target="_blank">(חץ ברשת)</a>
+                            </li>
+                            <li>
+                                תפזורות
+                                <a href="https://www.yo-yoo.co.il/tifzorot/" target="_blank">(יויו)</a>
+                            </li>
+                            <li>
+                                סודוקו
+                                <a href="https://www.sudoku.name/index-hb.php" target="_blank">(SUDOKU)</a>
+                            </li>
+                            <li>
+                                קאקורו
+                                <a href="http://www.poter.co.il/" target="_blank">(הפותר)</a>
+                            </li>
+                            <li>
+                                חידות
+                                <a href="https://davidson.weizmann.ac.il/category/%D7%AA%D7%92%D7%99%D7%95%D7%AA-%D7%93%D7%95%D7%99%D7%93%D7%A1%D7%95%D7%9F-online/%D7%97%D7%99%D7%93%D7%95%D7%AA" target="_blank">(מכון דוידסון)</a>
+                            </li>
+                            <li>
+                                חידות הגיון
+                                <a href="http://www.yo-yoo.co.il/hidot/index.php?cat=2" target="_blank">(יויו)</a>
+                            </li>
+                            <li>
+                                ניבים, פתגמים, ביטויים
+                                <a href="https://www.purposegames.com/game/bzhhGZfEyCg" target="_blank">(purposegames)</a>
+                            </li>
+                            <li>ארץ עיר</li>
+                        </ul>
+                    </div> <br />
+
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/games/thinkingGame.jpg" class="image_activity" width="60" height="60" />
+
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 3-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>משחקי קופסה</h4>
+                    <h5>ניתן ללמד אחד את השני משחק חדש או לשחק במשחק אהוב</h5>
+                    <div>
+                        <ul class="bullet">
+                            <li>דומינו</li>
+                            <li>מאנקלה</li>
+                            <li>פאזלים</li>
+                            <li>צוללות</li>
+                            <li>שבץ-נא</li>
+                            <li>מונופול</li>
+                            <li>רמי-קוב</li>
+                            <li>ארבע בשורה</li>
+                            <li>שם קוד</li>
+                            <li>דוקים</li>
+                        </ul>
+                    </div> <br />
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/games/paperAndPan.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 3-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>משחקי לוח</h4>
+                    <h5>שחקו בכל שעה ובכמה סבבים</h5>
+                    <div>
+                        <ul class="bullet">
+                            <li>שח מט</li>
+                            <li>שש בש</li>
+                            <li>דמקה</li>
+                        </ul>
+                    </div> <br />
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/games/luachgam.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 4-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>משחקי קלפים</h4>
+                    <h5>שחקו בכל שעה ובכמה סבבים</h5>
+                    <div>
+                        <ul class="bullet">
+                            <li>
+                                רמי
+                            </li>
+                            <li>
+                                SET
+                                <a href="https://www.youtube.com/watch?v=Kc4WrL7cxeg" target="_blank">(papper and pine)</a>
+                            </li>
+                            <li>
+                                מלחמה
+                                <a href="https://www.bekaloot.co.il/%D7%9E%D7%93%D7%A8%D7%99%D7%9A-124-%D7%90%D7%99%D7%9A%20%D7%9C%D7%A9%D7%97%D7%A7%20%D7%9E%D7%9C%D7%97%D7%9E%D7%94%20%D7%9E%D7%A9%D7%97%D7%A7%20%D7%A7%D7%9C%D7%A4%D7%99%D7%9D.aspx" target="_blank">(מדריכים לכל צורך בקלות)</a>
+                            </li>
+                            <li>
+                                טאקי
+                            </li>
+                            <li>רביעיות </li>
+                            <li>
+                                ברידג'
+                                <a href="https://he.wikibooks.org/wiki/%D7%91%D7%A8%D7%99%D7%93%D7%92%27/%D7%9E%D7%94%D7%9C%D7%9A_%D7%94%D7%9E%D7%A9%D7%97%D7%A7" target="_blank">(וקיספר)</a>
+                            </li>
+                            <li>
+                                פוקר
+                                <a href="https://www.pokernews.co.il/content.php?169-%D7%90%D7%99%D7%9A-%D7%9E%D7%A9%D7%97%D7%A7%D7%99%D7%9D-%D7%A4%D7%95%D7%A7%D7%A8-%D7%97%D7%95%D7%A7%D7%99%D7%9D" target="_blank">(poker news)</a>
+                            </li>
+                            <li>
+                                ספיד
+                                <a href="https://www.bekaloot.co.il/%D7%9E%D7%93%D7%A8%D7%99%D7%9A-1541-%D7%90%D7%99%D7%9A%20%D7%9E%D7%A9%D7%97%D7%A7%D7%99%D7%9D%20%D7%A1%D7%A4%D7%99%D7%93%20(%D7%97%D7%95%D7%A7%D7%99%D7%9D).aspx" target="_blank">(מדריכים לכל צורך בקלות)</a>
+                            </li>
+                        </ul>
+                    </div> <br />
+
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/games/cardsGame.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+
+        </div> <!--דיב סוגר פעילויות משחק-->
+        <!-- פעילויות טכנולוגיה -->
+        <div id="div4" style="display:none">
+
+            <!--פעילות 1-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>גלישה באינטרנט</h4>
+                    <span>למדו חיפוש בסיסי בגוגל, קראו באתרי חדשות ומתכונים.</span> <br />
+
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/tech/glish.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 2-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>משחקים באינטרנט</h4>
+                    <span>משחקים לשני שחקנים שאפשר לתכנן מהלכים יחד או לחוד.</span> <br />
+                    <!-- קישור -->
+                    <a href="http://games.yo-yoo.co.il/all_cats.php" target="_blank">(יויו)</a>
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/tech/mizhakim.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 3-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>פייסבוק</h4>
+                    <span>למדו אודות הרשת החברתית וכיצד להתנהל בה.</span> <br />
+
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/tech/facebook.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 4-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>וואטסאפ</h4>
+                    <span>למדו את תוכנת הוואסטפ, מה אפשר לעשות בה וכיצד לתפעל.</span> <br />
+
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/tech/wahtapp.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 5-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>סקייפ או זום</h4>
+                    <span>למדו כיצד לתקשר באפליקצות השונות.</span> <br />
+
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/tech/skype.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 6-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>שימוש במייל</h4>
+                    <span>פתחו כתובת מייל חדשה ולמדו כיצד לשלוח מיילים ולהגיב להם.</span> <br />
+
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/tech/mail.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 7-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>סמארטפון</h4>
+                    <span>למדו כיצד להשתמש בו לצרכים שונים.</span> <br />
+
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/tech/smartphone.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 8-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>כתיבת בלוג</h4>
+                    <span>כתבו בלוג על חייו של האזרח הוותיק, על המפגשים המשותפים.</span> <br />
+
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/tech/blog.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 9-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>אלבומי תמונות חינמיים מקוונים/ אתרי מפות</h4>
+                    <span>צפו והכירו מקומות חדשים, 'טיילו' בעולם מהמחשב בבית.</span> <br />
+                    <!-- קישור -->
+                    <a href="https://www.pexels.com/search/online/" target="_blank">(Pexels,</a>
+                    <a href="https://www.google.co.il/maps" target="_blank">Google Maps)</a>
+
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/tech/albomeyTmunuth.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 10-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>קורסים מקוונים חינמיים</h4>
+                    <span>הירשמו לקורס מקוון בנושא חדש ומעניין והעשירו את הידע.</span> <br />
+                    <!-- קישור -->
+                    <a href="https://campus.gov.il/" target="_blank">(קמפוס איי-אל,</a>
+                    <a href="https://www.taasuka.gov.il/he/Applicants/pages/onlinecourses.aspx" target="_blank">שירות התעסוקה הישראלי,</a>
+                    <a href="https://www.openu.ac.il/pages/freecourses.aspx" target="_blank">האוניברסיטה הפתוחה,</a>
+                    <a href="https://learndigital.withgoogle.com/digitalworkshop-il" target="_blank">Google,</a>
+                    <a href="https://www.khanacademy.org/" target="_blank">Khan Academy,</a>
+                    <a href="https://www.coursera.org/" target="_blank">Coursera)</a>
+
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/tech/onlineCourse.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+
+        </div> <!--דיב סוגר פעילויות טכנולוגיה-->
+        <!-- פעילויות העשרה ותרבות -->
+        <div id="div5" style="display:none">
+
+            <!--פעילות 11-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>הצגות</h4>
+                    <span>צפו בהצגות תאטרון ברחבי הרשת.</span> <br />
+                    <!-- קישור -->
+                    <a href="https://www.youtube.com/channel/UC7TZcBE63ESyvpCokT2Q26Q" target="_blank">(הקאמרי)</a>
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/culture/hazgot.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 12-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>הרצאות</h4>
+                    <span>צפו בהרצאות מגוונות.</span> <br />
+                    <!-- קישור -->
+                    <a href="https://www.ted.com/talks?language=he" target="_blank">(טד,</a>
+                    <a href="https://www.youtube.com/playlist?list=PLNiWLB_wsOg455y5Ts2NPLGFnWa_obcar" target="_blank">אוניברסיטת תל אביב)</a>
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/culture/harzot.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 13-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>מוזאונים וירטואליים</h4>
+                    <span>סיירו במוזאונים וירטואליים בלי לצאת מהבית.</span> <br />
+                    <!-- קישור -->
+                    <a href="https://artsandculture.google.com/partner?hl=en" target="_blank">(Google Arts&Culture)</a>
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/culture/mozeonim.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 14-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>יצירות מוזיקליות</h4>
+                    <span>האזינו ליצירות מוזיקליות שונות, לסגנונות חדשים או לשירי ילדות של האזרח הוותיק שיעלו חיוך על פניו.</span> <br />
+                    <!-- קישור -->
+                    <a href="https://www.youtube.com/channel/UCFNdGuthNR82Oeil6IUai3w" target="_blank">(האופרה הישראלית)</a>
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/culture/hazanaMusic.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 15-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>שירה</h4>
+                    <span>הקרינו על מסך המחשב שירי קריוקי ושירו יחד.</span> <br />
+                    <!-- קישור -->
+                    <a href="https://www.karaoke.co.il/" target="_blank">(שרים קריוקי,</a>
+                    <a href="https://www.idanvip.co.il/page/8/%D7%A9%D7%99%D7%A8%D7%99-%D7%A7%D7%A8%D7%99%D7%95%D7%A7%D7%99-%D7%97%D7%99%D7%A0%D7%9D" target="_blank">עידן הקריוקי)</a>
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/culture/karyoki.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+        </div> <!--דיב סוגר פעילויות תרבות-->
+        <!-- פעילויות כתיבה -->
+        <div id="div6" style="display:none">
+
+            <!--פעילות 1-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>יומן חיים, סיפור חיים</h4>
+                    <span>העלו על הכתב את סיפור חייו של האזרח הוותיק.</span> <br />
+
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/writhing/haimYoman.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 2-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>מכתבים</h4>
+                    <span>כתבו מכתבים לבני משפחה וחברים.</span>
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/writhing/micthavim.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 3-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>עץ משפחתי</h4>
+                    <span>הרכיבו עץ משפחתי שיכיל את כלל בני המשפחה.</span> <br />
+                    <!-- קישור -->
+                    <a href="https://www.myheritage.co.il/" target="_blank">(My Heritage)</a>
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/writhing/family.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 4-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>סיפור בהמשכים</h4>
+                    <span>כתבו סיפור עשיר שיכיל עולמות תוכן שונים.</span> <br />
+
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/writhing/story.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+        </div> <!--דיב סוגר פעילויות כתיבה-->
+        <!-- פעילויות ספורט -->
+        <div id="div7" style="display:none">
+
+            <!--פעילות 1-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>להתמסר בכדור</h4>
+                    <span class="mutual">
+                        <img src="pictures/icon_medicalaproval.svg" width="30" />
+                        <span class="sportP">פעילות הדורשת אישור רפואי בכתב</span>
+                    </span>
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/sports/balling.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 5-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>הליכה</h4>
+                    <span class="mutual">
+                        <img src="pictures/icon_medicalaproval.svg" width="30" />
+                        <span class="sportP">פעילות הדורשת אישור רפואי בכתב</span>
+                    </span>
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/sports/hlich.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+
+            <!--פעילות 7-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>שעת ספורט בתוכניות בוקר</h4>
+                    <span class="mutual">
+                        <img src="pictures/icon_medicalaproval.svg" width="30" />
+                        <span class="sportP">פעילות הדורשת אישור רפואי בכתב</span>
+                    </span>
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/sports/tvMorningShow.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 8-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>פעילויות שמצריכות מדריך מוסמך</h4>
+                    <div>
+                        <ul class="bullet">
+                            <li>יוגה</li>
+                            <li>טאי-צ'י</li>
+                            <li>פילאטיס</li>
+                            <li>פנדלקריז</li>
+                        </ul>
+                    </div> <br />
+                    <span class="mutual">
+                        <img src="pictures/icon_medicalaproval.svg" width="30" />
+                        <span class="sportP">פעילויות הדורשות אישור רפואי בכתב</span>
+                    </span>
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/sports/peronal_trainer_optimized.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+        </div> <!--דיב סוגר פעילויות ספורט-->
+        <!-- פעילויות התנדבות משותפת -->
+        <div id="div8" style="display:none">
+
+            <!--פעילות 1-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>שפה</h4>
+                    <span>למדו שפה חדשה דרך אפליקציית לימוד שפות, למדו לקרוא, לכתוב ולדבר.</span> <br />
+                    <!-- קישור -->
+                    <a href="https://www.duolingo.com/" target="_blank">(Duolingo)</a>
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/culture/safa.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 2-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>הקלדה עיוורת</h4>
+                    <span>למדו להקליד במחשב בלי להסתכל על המקלדת.</span> <br />
+                    <!-- קישור -->
+                    <a href="https://sense-lang.org/typing/tutor/keyboardingHE.php" target="_blank">(Sense-lang)</a>
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/culture/haklada.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 3-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>נגינה</h4>
+                    <span>נגנו יחד יצירות שונות, חשפו האחד את השני ליצירות חדשות.</span> <br />
+                    <!-- קישור -->
+                    <a href="https://tavisraeli.co.il/" target="_blank">(תו ישראלי)</a>
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/culture/negina.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 4-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>צילום</h4>
+                    <span>למדו כיצד לצלם בסמארטפון או במצלמה.</span> <br />
+                    <!-- קישור -->
+                    <a href="http://www.galitz.co.il/articles.html" target="_blank">(רועי גליץ)</a>
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/culture/zilom.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 5-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>פודקאסטים</h4>
+                    <span>האזינו לנושא חדש ומסקרן.</span> <br />
+                    <!-- קישור -->
+                    <a href="https://www.osimhistoria.com/" target="_blank">(עושים היסטוריה,</a>
+                    <a href="https://www.kan.org.il/podcast/" target="_blank">כאן)</a>
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/culture/poscast.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 6-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>תצלומי חלל</h4>
+                    <span>צפו בתצלומים שונים באינטרנט.</span> <br />
+                    <!-- קישור -->
+                    <a href="https://www.diyphotography.net/nasa-makes-entire-media-library-publicly-accessible-copyright-free/?fbclid=IwAR3HdxSVqId3tp66Fg0pZGx_TNAOeb2s4pwJ2hQNl2bwElnuw3gBldDxNyE" target="_blank">(photography)</a>
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/culture/hallal.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 8-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>עיתון או אתר חדשות</h4>
+                    <span>קראו ושמרו על בקיאות אקטואלית.</span> <br />
+                    <!-- קישור -->
+                    <a href="https://www.n12.co.il/" target="_blank">(N12,</a>
+                    <a href="https://www.walla.co.il/" target="_blank">walla,</a>
+                    <a href="https://www.mako.co.il/" target="_blank">mako,</a>
+                    <a href="https://www.ynet.co.il/home/0,7340,L-8,00.html" target="_blank">ynet)</a>
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/culture/iton.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 10-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>ספרים</h4>
+                    <span>קראו נושאים חדשים או כלליים ושוחחו עליהם.</span> <br />
+
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/culture/sfrim.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+
+        </div> <!--דיב סוגר פעילויות העשרה -->
+        <!-- פעילויות אחר -->
+        <div id="div9" style="display:none">
+
+            <!--פעילות 1-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>קיימות</h4>
+                    <span>למדו על קיימות מאתרים שונים ויישמו יחד.</span> <br />
+
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/others/kayamot.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 2-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>מיחזור</h4>
+                    <span>צרו פחי מיחזור מופרדים. אספו מוצרים למיחזור וגשו למתקני המיחזור הקרובים.</span> <br />
+
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/others/mihzur.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 3-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>גינה</h4>
+                    <span>גזמו, שתלו וטפחו את גינתו של האזרח הוותיק.</span> <br />
+
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/others/gina.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 4-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>פארק</h4>
+                    <span>צאו להליכה בפארק הקרוב או עשו פיקניק.</span> <br />
+
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/others/park.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 5-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>ריקוד</h4>
+                    <span>למדו תנועות ריקודים שונים. <br /> <br /> </span>
+
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/others/rikod.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 6-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>אלבום תמונות</h4>
+                    <span>התבוננו יחד באלבומי תמונות או צרו חדשים.</span> <br />
+
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/others/album.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 7-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>פדיקור מניקור</h4>
+                    <span>הקדישו זמן לשעת טיפוח, סדרו ציפורניים ומרחו לק חדש.</span> <br />
+
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/others/lak.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 8-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>ים</h4>
+                    <span>בצעו צעידה קלה באזור או צפו בשקיעה/זריחה.</span> <br />
+
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/others/yam.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 9-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>תחביבים</h4>
+                    <span>למדו האחד את השני תחביבים שונים, שפה, תפירה, נגרות, בישול, גינון.</span> <br />
+
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/others/thahvivim.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 10-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>תצוגת אופנה</h4>
+                    <span>התלבשו יפה, צלמו ודגמנו כמעין תצוגת אופנה.</span> <br />
+
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/others/ofna.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 11-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>סרט</h4>
+                    <span>צפו בנושא שעלה באחת מהשיחות או בנושא חדש שמעניין אתכם</span> <br />
+
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/others/seret.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 12-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>סדרה</h4>
+                    <span>צפו בסדרה קבועה במפגשים עוקבים, שוחחו ודונו בנושא בו צפיתם.</span> <br />
+
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/others/sidra.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 13-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>אמת או שקר</h4>
+                    <span>ספרו כל אחד בתורו עובדה אמיתית ועובדה שהיא שקר ונחשו בתורות.</span> <br />
+
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/others/emetOshker.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+            <!--פעילות 14-->
+            <div class="flex-container">
+                <div class="flex-item-right">
+                    <h4>יצירת רשימת קניות</h4>
+                    <span>כתבו רשימת קניות יחדיו.</span> <br />
+
+                </div>
+                <!-- תמונה -->
+                <div class="flex-item-left">
+                    <img src="pictures/others/reshimatKeniyot.jpg" class="image_activity" width="60" height="60" />
+                </div>
+            </div>
+            <!-- סוף פעילות -->
+        </div> <!--דיב סוגר פעילויות אחר-->
+
+
+
+    </div>
+
+    <footer>
+        <hr />
+        <p id="aboutP">
+            תוצר זה פותח במסגרת פרויקט גמר לתואר ראשון
+            <a href="https://www.hit.ac.il/telem/overview" target="_blank">בפקולטה לטכנולוגיות למידה</a>
+            , HIT
+            |
+            <a href="#" onclick="showAbout()">אודות</a>
+        </p>
+    </footer>
+</body>
+</html>

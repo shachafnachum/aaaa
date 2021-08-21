@@ -1,0 +1,611 @@
+﻿<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>VolunTips- טיפים</title>
+    <meta name="description" content="רעיונות לפעילויות" />
+    <meta name="keywords" content="programing3, התנדבות, אזרחים וותיקים, HIT" />
+    <meta name="author" content="Liri Shaltiel & Shachaf Nachum" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="bootstrap/css/bootstrap-reboot.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap-grid.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="styles/myStyle-casses.css" rel="stylesheet" />
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="jScripts/JavaScript.js"></script>
+    <script src="jScripts/jQuery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+
+
+</head>
+<body>
+
+    <nav class="navbar fixed-top " navbar navbar-light" style="background-color: white;">
+        <a class="nav-item nav-link" href="#" onclick="myFunction()">
+            <img id="menu" src="pictures/menu.svg" />
+        </a>
+
+        <div class="topnav">
+            <a class="amenue" href="index.html">עמוד הבית</a>
+            <a class="amenue" href="conversions.html">רעיונות לשיחות</a>
+            <a class="amenue" href="activities.html">רעיונות לפעילויות</a>
+            <a class="amenue" id="active" href="casses.html">טיפים</a>
+            <a class="amenue" href="#" onclick="showAbout()">אודות</a>
+        </div>
+
+        <a class="navbar-brand" href="index.html">
+            <img id="logo" src="pictures/logo.png" />
+        </a>
+
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <a class="amenue" href="index.html">עמוד הבית</a>
+            <div class="line"></div>
+            <a class="amenue" href="conversions.html">רעיונות לשיחות</a>
+            <div class="line"></div>
+            <a class="amenue" href="activities.html">רעיונות לפעילויות</a>
+            <div class="line"></div>
+            <a class="amenue" href="casses.html">טיפים</a>
+            <div class="line"></div>
+            <a class="amenue" href="#" onclick="showAbout()">אודות</a>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+
+    <div id="container" class="container">
+
+        <!--אודות-->
+        <div id="about">
+            <div id="xDiv">
+                <p class="aboutP" onclick="closeAbout()">X</p>
+            </div>
+            <div class="color">
+                <h2 id="abouth2">אודות</h2>
+            </div>
+            <div class='square-box-about'>
+
+                <div class='square-content-about'>
+                    <p>אתר מותאם למובייל לשיפור איכות ההתנדבות בקרב מתנדבים עם אזרחים וותיקים</p>
+                </div>
+            </div>
+
+            <p class="aboutP">
+                פרויקט גמר תשפ"א <br />
+                <a href="https://www.hit.ac.il/telem/overview" target="_blank">הפקולטה לטכנולוגיות למידה</a>
+            </p>
+
+            <div class="box">
+                <div class="box_column">
+                    <div>
+                        <h4>צוות הפרויקט:</h4>
+                        <p class="aboutP2">שחף נחום <br />לירי שאלתיאל</p>
+                    </div>
+                    <div>
+                        <h4>מנחים:</h4>
+                        <p class="aboutP2">ד"ר דורותי לנגלי <br />עמרי כהנא</p>
+                    </div>
+                    <div id="moatza_desktop">
+                        <h4>בשיתוף המועצה הישראלית להתנדבות</h4>
+                        <p class="aboutP2">
+                            נציגת הארגון: גב' תמר ברגר <br />
+                        </p>
+                        <h4>משרד העבודה והרווחה</h4>
+                        <p class="aboutP2">
+                            מינהל אזרחים ותיקים ותחום התנדבות <br />
+                        </p>
+                        <h4>המשרד לשיוויון חברתי</h4>
+                        <p class="aboutP2">
+                            אגף אזרחים ותיקים <br />
+                        </p>
+                        <br />
+                        <p class="aboutP2">
+                            ליצירת קשר:
+                            <a href="mailto:office@ivolunteer.org.il">office@ivolunteer.org.il</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="box_column">
+                    <a class="aboutA" href="https://www.hit.ac.il/telem/overview" target="_blank">
+                        <img class="pic" src="pictures/logoHIT.gif" />
+                    </a>
+
+                    <div>
+                        <a class="aboutA" href="http://www.ivolunteer.org.il/" target="_blank">
+                            <img class="pic2" src="pictures/logo_moatza.png" />
+                        </a>
+                        <a class="aboutA" href="http://www.ivolunteer.org.il/#" target="_blank">
+                            <img class="pic3" src="pictures/logo-reshet.png" />
+                        </a>
+                    </div>
+                    <div>
+                        <a class="aboutA" href="https://www.gov.il/he/departments/molsa" target="_blank">
+                            <img class="pic4" src="pictures/logo-misrad.png" />
+                        </a>
+                        <a class="aboutA" href="https://www.gov.il/he/departments/ministry_for_social_equality" target="_blank">
+                            <img class="pic5" src="pictures/logo-misrad1.jpg" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="moatza_mobile">
+                <h4>בשיתוף המועצה הישראלית להתנדבות</h4>
+                <p class="aboutP2">
+                    נציגת הארגון: תמר ברגר <br />
+                </p>
+                <h4>משרד העבודה והרווחה</h4>
+                <p class="aboutP2">
+                    מינהל אזרחים ותיקים ותחום התנדבות <br />
+                </p>
+                <h4>המשרד לשיוויון חברתי</h4>
+                <p class="aboutP2">
+                    אגף אזרחים ותיקים <br />
+                </p>
+                <p class="aboutP2">
+                    ליצירת קשר:
+                    <a href="mailto:office@ivolunteer.org.il">office@ivolunteer.org.il</a>
+                </p>
+            </div>
+
+            <h4 class="centerh4">כל הזכויות שמורות למכון הטכנולוגי חולון HIT</h4>
+
+        </div>
+        <div id="overlay"></div>
+        <!--אודות-->
+
+        <div id="headline">
+            <div class="header">
+                <h1>טיפים</h1>
+            </div>
+            <div class='square-box'>
+
+                <div class='square-content'>
+
+                    <p>
+                        מבחר טיפים לסיוע במהלך ההתנדבות! <br />
+                        <!--קראו כיצד מומל <span>ץ</span> לפעול בשלבי ההתנדבות המרכזיים-->
+                        קראו את ההמלצות לפעולה בשלבי המפגש
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="paddingDiv"></div>
+        <div id="navbar2">
+            <p onclick="begining()">תחילת מפגש</p>
+            <p onclick="during()">מהלך מפגש</p>
+            <p onclick="end()">סיום מפגש</p>
+        </div>
+
+
+
+        <div class="lineGreen1"></div>
+        <!--תחילת המפגש-->
+        <div>
+
+            <div>
+                <div class="flex-container">
+                    <div>
+                        <img class="tips_icon" src="pictures/tips_icons/nice_inviorment.svg" />
+                    </div>
+                    <div class="item">
+                        <div id="begining"></div>
+                        <h3>סביבת התנדבות נעימה</h3>
+                    </div>
+                </div>
+                <p class="case">
+                    ניתן לבצע כמה פעולות שיחזקו את תחושת הנינוחות של המשתתפים בזמן מפגש.
+                </p>
+
+                <p class="comment">מה הטיפ שלנו?</p>
+                <div id="commentDiv1" class="commentDiv" onclick="tap()">
+                    <div class="arrowandText">
+                        <img id="arrow-flip" class="arrow-flip" src="pictures/arrow-flip.svg" onclick="tap()" />
+                        <p class="clickforanswer">לחצו כאן לחשיפה</p>
+                    </div>
+                </div>
+
+                <div id="answer" class="hide">
+                    מומלץ להקדיש את מסגרת מפגש ההתנדבות אך ורק לאזרח הוותיק עצמו כדי לתרום לתחושת הנינוחות, להימנע מהפרעות שונות כדוגמת הודעות או שיחות טלפון.
+                    <br />
+                    <br />
+                    כדאי להגיע מוכנים עם מספר רעיונות לפעילויות ושיחות שניתן לשלוף בעת הצורך. הכנה מסוג זה יכולה לסייע ולתרום לתחושה טובה.
+                </div>
+                <div id="lineGreen" class="lineGreen"></div>
+            </div>
+
+            <div>
+                <div class="flex-container">
+                    <div>
+                        <img class="tips_icon" src="pictures/tips_icons/afraid.svg" />
+                    </div>
+                    <div class="item">
+                        <h3>אזרח וותיק שחושש מההתנדבות</h3>
+                    </div>
+                </div>
+
+                <p class="case">בתחילת התהליך האזרח הוותיק יכול לחשוש מההיכרות החדשה ומהסיטואציה הלא מוכרת. חשש זה יכול לעלות בשיחת הטלפון המקדימה או במפגש עצמו.</p>
+                <p class="comment">מה הטיפ שלנו?</p>
+
+                <div id="commentDiv2" class="commentDiv" onclick="tap2()">
+                    <div class="arrowandText">
+                        <img id="arrow-flip" class="arrow-flip" src="pictures/arrow-flip.svg" onclick="tap()" />
+                        <p class="clickforanswer">לחצו כאן לחשיפה</p>
+                    </div>
+                </div>
+
+                <div id="answer2" class="hide">
+                    מומלץ להתחיל בחיוך ולשאול לשלום האזרח הוותיק. להמשיך בהצגה עצמית וביצירת שיח נעים דרך שאלות פשוטות ובסיסיות.
+                    <br />
+                    <br />
+                    בשורה התחתונה, יש ליצור סביבה הדדית בה האזרח הוותיק מרגיש בנוח לתרום מעצמו ולהיות משמעותי בקשר.
+                    <br />
+                    <br />
+                    בעמוד רעיונות לשיחות שבאתר ניתן למצוא מגוון נושאי שיחה לכל שלבי ההתנדבות.
+                </div>
+                <div id="lineGreen2" class="lineGreen"></div>
+            </div>
+
+            <div>
+                <div class="flex-container">
+                    <div>
+                        <img class="tips_icon" src="pictures/tips_icons/shy.svg" />
+                    </div>
+                    <div class="item">
+                        <h3>הפגת ביישנות המתנדב</h3>
+                    </div>
+                </div>
+
+                <p class="case">בהיכרות עם אדם חדש יש צורך להתחיל בשיחה. הדבר עלול להיות מלחיץ וזה טבעי להתבייש.</p>
+                <p class="comment">מה הטיפ שלנו?</p>
+
+                <div id="commentDiv3" class="commentDiv" onclick="tap3()">
+                    <div class="arrowandText">
+                        <img id="arrow-flip" class="arrow-flip" src="pictures/arrow-flip.svg" onclick="tap()" />
+                        <p class="clickforanswer">לחצו כאן לחשיפה</p>
+                    </div>
+                </div>
+                <div id="answer3" class="hide">
+                    מומלץ לבצע פעולות שונות שיכניסו לעניינים. צריך לזכור שיש שניים בסיטואציה ושהתחושות יכולות להיות זהות. הדבר הכי טוב שאפשר לעשות זה פשוט... להתחיל!
+                    <br />
+                    <br />
+                    אפשר לשאול על הדברים שבסביבת האזרח הוותיק: גינה, ציורים, ספר שהוא קורא, תוכנית טלוויזיה בה צפה ועוד.
+                    <br />
+                    <br />
+                    פתרון נוסף הוא שינוי אווירה למקום נוח ומשחרר, למשל בגינה או במרפסת.
+                    <br />
+                    <br />
+                    כדאי לפתח שיחה סביב נושאים פשוטים, לחפש תחומי עניין משותפים או כאלה שהאזרח הוותיק צריך בהם עזרה.
+                    <br />
+                    <br />
+                    לעיתים יש צורך ביותר ממפגש אחד כדאי להפיג ביישנות וזה טבעי ובסדר.
+                </div>
+                <div id="lineGreen3" class="lineGreen"></div>
+            </div>
+
+            <div>
+                <div class="flex-container">
+                    <div>
+                        <img class="tips_icon" src="pictures/tips_icons/listen.svg" />
+                    </div>
+                    <div class="item">
+                        <h3>הקשבה עמוקה</h3>
+                    </div>
+                </div>
+
+                <p class="case">כשלא מצליחים לפתח שיחה, עלולים לחוש מעט תסכול. כדי להעמיק את השיח במפגש ניתן להתחיל מצעד בסיסי ופשוט. </p>
+                <p class="comment">מה הטיפ שלנו?</p>
+
+                <div id="commentDiv4" class="commentDiv" onclick="tap4()">
+                    <div class="arrowandText">
+                        <img id="arrow-flip" class="arrow-flip" src="pictures/arrow-flip.svg" onclick="tap()" />
+                        <p class="clickforanswer">לחצו כאן לחשיפה</p>
+                    </div>
+                </div>
+                <div id="answer4" class="hide">
+                    הפתרון הוא פשוט להקשיב! מומלץ להקשיב לצרכים, לבקשות, לגלות עירנות לדברים שנאמרים.
+                    <br /> <br />
+                    באמצעות הקשבה פעילה ניתן לזהות תחומי עניין ולשוחח עליהם, ובו זמנית להשרות אווירה נינוחה ולהוביל לחיבור עמוק יותר.
+                    <br /> <br />
+                    ברגע שהצד השני מזהה כי יש לו אוזן קשבת, לאט לאט הוא ייפתח ותתאפשר העמקת הקשר.
+                    <br /> <br />
+                    אפשר להשתמש בטיפ זה במפגשי ההתנדבות וליישם אותו גם באינטראקציות נוספות בחיים.
+                </div>
+                <div id="lineGreen4" class="lineGreen"></div>
+            </div>
+
+            <div>
+                <div class="flex-container">
+                    <div>
+                        <img class="tips_icon" src="pictures/tips_icons/acrivities.svg" />
+                    </div>
+                    <div class="item">
+                        <h3>התאמת פעילויות למפגש</h3>
+                    </div>
+                </div>
+
+                <p class="case">בחלק ממפגשי ההתנדבות ניתן לבצע פעילויות משותפות שיכולות להפוך את המפגש למוצלח יותר. בבחירת פעילות כדאי לשים לב לכמה דברים.</p>
+                <p class="comment">מה הטיפ שלנו?</p>
+                <div id="commentDiv5" class="commentDiv" onclick="tap5()">
+                    <div class="arrowandText">
+                        <img id="arrow-flip" class="arrow-flip" src="pictures/arrow-flip.svg" onclick="tap()" />
+                        <p class="clickforanswer">לחצו כאן לחשיפה</p>
+                    </div>
+                </div>
+                <div id="answer5" class="hide">
+                    מומלץ להתייעץ עם האזרח הוותיק ולבחור יחד פעילות שתתאים ליכולותיו, גם מבחינת תחומי העניין שלו וגם מבחינת יכולות פיזיות: ראייה, שמיעה וכדומה.
+                    <br />
+                    <br />
+                    בעמוד רעיונות לפעילויות שבאתר ניתן למצוא מגוון פעילויות בחלוקה לתחומי עניין.
+                </div>
+
+                <div id="lineGreen5" class="lineGreen"></div>
+            </div>
+
+        </div>
+
+        <!--מהלך המפגש-->
+        <div>
+
+            <div>
+                <div class="flex-container">
+                    <div>
+                        <img class="tips_icon" src="pictures/tips_icons/fall_asleep.svg" />
+                    </div>
+                    <div id="during"></div>
+                    <div class="item">
+                        <h3>אזרח וותיק שנרדם במהלך המפגש </h3>
+                    </div>
+                </div>
+
+                <p class="case">דוגמה למצב בלתי צפוי שעלול לקרות במהלך המפגש הוא שהאזרח הוותיק ירדם. יש מספר דברים שכדאי לשים אליהם לב במקרה כזה.</p>
+                <p class="comment">מה הטיפ שלנו?</p>
+                <div id="commentDiv6" class="commentDiv" onclick="tap6()">
+                    <div class="arrowandText">
+                        <img id="arrow-flip" class="arrow-flip" src="pictures/arrow-flip.svg" onclick="tap()" />
+                        <p class="clickforanswer">לחצו כאן לחשיפה</p>
+                    </div>
+                </div>
+                <div id="answer6" class="hide">
+                    יש לתת לו לנוח מספר דקות. בהמשך לשאול לשלומו, לשאול האם ירצה לטייל או להתעמל יחד או כל דבר אחר שמעורר. לשים לב כי יש סימני נשימה ואם מדובר בעייפות רגילה או כרונית.
+                    <br /> <br />
+                    במידה וממשיך להירדם, מומלץ להעירו, לשאול לשלומו ולהיפרד לשלום. חשוב לא ללכת מבלי להיפרד.
+                </div>
+                <div id="lineGreen6" class="lineGreen"></div>
+            </div>
+
+            <div>
+                <div class="flex-container">
+                    <div>
+                        <img class="tips_icon" src="pictures/tips_icons/no_collaborate.svg" />
+                    </div>
+                    <div class="item">
+                        <h3>אזרח וותיק שלא משתף פעולה</h3>
+                    </div>
+                </div>
+
+                <p class="case">לפעמים ישנו קושי ביצירת שיתוף פעולה ורתימה של האזרח הוותיק למהלך ההתנדבות.</p>
+                <p class="comment">מה הטיפ שלנו?</p>
+                <div id="commentDiv7" class="commentDiv" onclick="tap7()">
+                    <div class="arrowandText">
+                        <img id="arrow-flip" class="arrow-flip" src="pictures/arrow-flip.svg" onclick="tap()" />
+                        <p class="clickforanswer">לחצו כאן לחשיפה</p>
+                    </div>
+                </div>
+                <div id="answer7" class="hide">
+                    כדאי לפעול לאט ובטוח ולהתחיל את המפגשים בהדרגתיות. מפגש ראשון קצר ונעים, בלי לחץ על האזרח הוותיק. בסיומו, להגיד 'תודה רבה היה לי ממש נעים להכיר, אשוב ב…'.
+                    <br /> <br />
+                    במפגש השני להביא משהו נחמד ולשתף את האזרח הוותיק, כמו כתבה או סרט מעניינים, לשאול מה מעניין אותו.
+                    <br /> <br />
+                    במפגשים הבאים, להמשיך בהדרגתיות עד יצירת שיתוף פעולה וחיבור.
+                    <br /> <br />
+                    כשלא מתייאשים מרוויחים! ניתן להרפות, לסיים את המפגש בחיוך ולחזור לפעם נוספת.
+                </div>
+                <div id="lineGreen7" class="lineGreen"></div>
+            </div>
+
+            <div>
+                <div class="flex-container">
+                    <div>
+                        <img class="tips_icon" src="pictures/tips_icons/tale_alot.svg" />
+                    </div>
+                    <div class="item">
+                        <h3>אזרח וותיק שמדבר הרבה</h3>
+                    </div>
+                </div>
+
+                <p class="case">אזרח וותיק שבמהלך מפגש ההתנדבות מדבר הרבה וללא הפסקה.</p>
+                <p class="comment">מה הטיפ שלנו?</p>
+                <div id="commentDiv8" class="commentDiv" onclick="tap8()">
+                    <div class="arrowandText">
+                        <img id="arrow-flip" class="arrow-flip" src="pictures/arrow-flip.svg" onclick="tap()" />
+                        <p class="clickforanswer">לחצו כאן לחשיפה</p>
+                    </div>
+                </div>
+                <div id="answer8" class="hide">
+                    נהדר. המטרה היא שהאזרח הוותיק ישתף ויפרוק. אם הוא מדבר, חשוב לתת לו לעשות זאת בחופשיות. מדי פעם, כדאי לעצור ולסכם מה נאמר, בעיקר כדי שהאזרח הוותיק ירגיש שהמתנדב בהאזנה ואיתו. כמו כן, לתת פידבק ולהגיב באמפתיה לנקודות המשמעותיות שבדבריו.
+                    <br /> <br />
+                    חשוב גם לדעת מתי ואיך לסיים את המפגש בנעימות ולהודות על השיתוף.
+                </div>
+                <div id="lineGreen8" class="lineGreen"></div>
+            </div>
+
+            <div>
+                <div class="flex-container">
+                    <div>
+                        <img class="tips_icon" src="pictures/tips_icons/friends.svg" />
+                    </div>
+                    <div class="item">
+                        <h3>חיי חברה</h3>
+                    </div>
+                </div>
+
+                <p class="case">ניתן לבצע פעולות להעשרת חיי החברה של האזרח הוותיק מעבר לשעות ההתנדבות.</p>
+                <p class="comment">מה הטיפ שלנו?</p>
+                <div id="commentDiv9" class="commentDiv" onclick="tap9()">
+                    <div class="arrowandText">
+                        <img id="arrow-flip" class="arrow-flip" src="pictures/arrow-flip.svg" onclick="tap()" />
+                        <p class="clickforanswer">לחצו כאן לחשיפה</p>
+                    </div>
+                </div>
+                <div id="answer9" class="hide">
+                    מומלץ לזהות חברים או שכנים עימם האזרח הוותיק נמצא בחברות, ולעודד מפגשים שלהם מעבר למועדים של מפגשי ההתנדבות.
+                </div>
+                <div id="lineGreen9" class="lineGreen"></div>
+            </div>
+
+            <div>
+                <div class="flex-container">
+                    <div>
+                        <img class="tips_icon" src="pictures/tips_icons/blind.svg" />
+                    </div>
+                    <div class="item">
+                        <h3>אזרח ותיק עם מגבלות ראייה </h3>
+                    </div>
+                </div>
+
+                <p class="case">במקרה שהאזרח הוותיק סובל ממגבלות ראייה המשפיעות על מהלך ההתנדבות, יש להתאים את תוכן המפגש ליכולותיו.</p>
+                <p class="comment">מה הטיפ שלנו?</p>
+                <div id="commentDiv10" class="commentDiv" onclick="tap10()">
+                    <div class="arrowandText">
+                        <img id="arrow-flip" class="arrow-flip" src="pictures/arrow-flip.svg" onclick="tap()" />
+                        <p class="clickforanswer">לחצו כאן לחשיפה</p>
+                    </div>
+                </div>
+
+                <div id="answer10" class="hide">
+                    ניתן לבסס את מפגש ההתנדבות בעיקרו על פעולות שאינן מצריכות ראייה כחוש המרכזי: האזנה למוזיקה או פודקאסטים, שיחות, למידה משותפת, טיול באזור ועוד.
+                    <br /> <br />
+                    חשוב להתאים את המפגש ליכולותיו הפיזיות של האזרח ולהיות קשוב לרצונותיו. ניתן לעשות זאת בהתייעצות משותפת לבחירת פעילות.
+                </div>
+
+                <div id="lineGreen10" class="lineGreen"></div>
+            </div>
+
+        </div>
+
+        <!--סיום המפגש-->
+        <div>
+
+            <div>
+                <div class="flex-container">
+                    <div>
+                        <img class="tips_icon" src="pictures/tips_icons/phone.svg" />
+                    </div>
+                    <div id="end"></div>
+                    <div class="item">
+                        <h3>תקשורת רבה מעבר לשעות ההתנדבות </h3>
+
+                    </div>
+                </div>
+                <p class="case">
+                    יכול להיות מצב בו האזרח הוותיק יוצר קשר פעמים רבות מעבר לשעות ההתנדבות בשליחת הודעות וואטסאפ ובשיחות טלפון.
+                </p>
+                <p class="comment">מה הטיפ שלנו?</p>
+                <div id="commentDiv11" class="commentDiv" onclick="tap11()">
+                    <div class="arrowandText">
+                        <img id="arrow-flip" class="arrow-flip" src="pictures/arrow-flip.svg" onclick="tap()" />
+                        <p class="clickforanswer">לחצו כאן לחשיפה</p>
+                    </div>
+                </div>
+
+                <div id="answer11" class="hide">
+                    במקרה כזה מומלץ לשתף את האזרח הוותיק כי יש שעות מוגדרות עבור מפגש ההתנדבות ומעבר לכך לא מתאפשר לתת. במסגרת המפגש כדאי להגיד לו שהזמן מוקדש רק עבורו.
+                    <br /> <br />
+                    במידת האפשר, במקרה צורך של ממש ובמקרי חירום, האזרח הוותיק יכול ליצור קשר וניתן לשוב אליו בזמן הפנוי.
+                </div>
+                <div id="lineGreen11" class="lineGreen"></div>
+            </div>
+
+            <div>
+                <div class="flex-container">
+                    <div>
+                        <img class="tips_icon" src="pictures/tips_icons/byebye.svg" />
+                    </div>
+                    <div class="item">
+                        <h3>קושי להיפרד</h3>
+                    </div>
+                </div>
+
+                <p class="case">לכל מפגש יש גם סיום. כחלק ממנו, עלול האזרח הוותיק להפגין קושי בפרידה ואף לנסות לשכנע להאריך את המפגש.</p>
+                <p class="comment">מה הטיפ שלנו?</p>
+                <div id="commentDiv12" class="commentDiv" onclick="tap12()">
+                    <div class="arrowandText">
+                        <img id="arrow-flip" class="arrow-flip" src="pictures/arrow-flip.svg" onclick="tap()" />
+                        <p class="clickforanswer">לחצו כאן לחשיפה</p>
+                    </div>
+                </div>
+
+                <div id="answer12" class="hide">
+                    מומלץ לתחום ולציין את טווחי הזמנים בתחילת המפגש.
+                    <br /> <br />
+                    בסיום המפגש, להיפרד בחיוך ובנימוס, 'תודה על הזמן, היה לי ממש כיף לפגוש אותך'.
+                    <br /> <br />
+                    ניתן לוודא מול האזרח הוותיק את מועד המפגש הבא. באמצעות כך יופחת הקושי להיפרד ותיווצר ציפייה להמשך.
+                </div>
+                <div id="lineGreen12" class="lineGreen"></div>
+            </div>
+
+            <div>
+                <div class="flex-container">
+                    <div>
+                        <img class="tips_icon" src="pictures/tips_icons/volunteer_help.svg" />
+                    </div>
+                    <div class="item">
+                        <h3>ייעוץ וסיוע למתנדב</h3>
+                    </div>
+                </div>
+
+                <p class="case">כחלק מתהליך ההתנדבות ישנם מקרים לא מוכרים בהם לא ידוע כיצד נכון לפעול ויש צורך באוזן קשבת וייעוץ.</p>
+                <p class="comment">מה הטיפ שלנו?</p>
+                <div id="commentDiv13" class="commentDiv" onclick="tap13()">
+                    <div class="arrowandText">
+                        <img id="arrow-flip" class="arrow-flip" src="pictures/arrow-flip.svg" onclick="tap()" />
+                        <p class="clickforanswer">לחצו כאן לחשיפה</p>
+                    </div>
+                </div>
+
+                <div id="answer13" class="hide">
+                    במידה ועולה סיטואציה שלא ניתן עליה מענה במסגרת ההכשרה לתפקיד ההתנדבותי, תמיד יש מקום לשאול, להציף ולשתף את הסוגיות עם רכז התכנית המלווה.
+                </div>
+                <div id="lineGreen13" class="lineGreen"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <hr />
+        <p class="footer">
+            תוצר זה פותח במסגרת פרויקט גמר לתואר ראשון
+            <a href="https://www.hit.ac.il/telem/overview" target="_blank">בפקולטה לטכנולוגיות למידה</a>
+            , HIT
+            |
+            <a href="#" onclick="showAbout()">אודות</a>
+        </p>
+    </footer>
+</body>
+</html>
+
+<script>
+    window.onscroll = function () { scrollFunc() };
+
+    var navbar = document.getElementById("navbar2");
+    var sticky = navbar.offsetHeight;
+
+    function scrollFunc() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+
+</script>
